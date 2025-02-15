@@ -1,0 +1,15 @@
+meta {
+  name: COUNT-VOWELS
+  type: http
+  seq: 5
+}
+
+get {
+  url: https://localhost:7260/api/logic/count-vowels
+  body: json
+  auth: none
+}
+
+body:text {
+  "hola mundo"
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "ContainingType": "ExamenUno.Controllers.LogicController",
+    "Method": "CountVowels",
+    "RelativePath": "api/logic/count-vowels/{text}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "text",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamenUno.Controllers.LogicController",
+    "Method": "GetFactorial",
+    "RelativePath": "api/logic/factorial/{number_factorial}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "number_factorial",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamenUno.Controllers.LogicController",
+    "Method": "GetFibonacci",
+    "RelativePath": "api/logic/fibonacci/{limit}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamenUno.Controllers.LogicController",
+    "Method": "GetPrime",
+    "RelativePath": "api/logic/is-prime/{number}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "number",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
